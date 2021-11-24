@@ -1,0 +1,43 @@
+li.slick-active>div {
+    background-color: #38444c !important;
+    border: none;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.slick-dots {
+    height: 5px;
+    bottom: -10px;
+}
+
+@media (max-width: 1200px) {
+    .slick-dots {
+        height: 5px;
+        bottom: -7px;
+    }
+
+    .slick-dots li {
+        margin: 0 2px
+    }
+}
+
+@media (max-width: 991px) {
+    .slick-dots {
+        height: 5px;
+        bottom: -7px;
+    }
+
+    .slick-dots li {
+        margin: 0 2px
+    }
+}
+
+@media (max-width: 400px) {
+    /* .slick-dots li {
+        width: 12px;
+        height: 12px;
+    } */
+}
